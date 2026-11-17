@@ -3,7 +3,7 @@ name = "SigmaOS-chrony"
 tier = 2
 stability = "scaffold"
 language = "rust"
-description = "chrony component"
+description = "Chrony"
 upstream = []
 
 [contract]
