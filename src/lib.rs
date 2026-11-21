@@ -146,3 +146,7 @@ mod tests {
         assert_eq!(m.event_count(), 1);
     }
 }
+
+/// Time synchronization service (NTP/timesyncd-style), extracted from
+/// the SigmaOS-system monolith.
+pub mod sigmatime;
